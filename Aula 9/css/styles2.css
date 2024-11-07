@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Reseta alguns estilos */
+body, h2, a, table, th, td, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+h2 {
+    text-align: center;
+    color: #004d99;
+    margin-bottom: 20px;
+}
+
+/* Botões */
+a button {
+    background-color: #004d99;
+    color: white;
+    border: none;
+    padding: 8px 18px; /* Diminuído */
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+a button:hover {
+    background-color: #003366;
+}
+
+/* Tabela */
+table {
+    width: 90%; /* Diminuído */
+    margin: 20px auto; /* Centralizado */
+    border-collapse: collapse;
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #004d99;
+}
+
+th {
+    background-color: #004d99;
+    color: white;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+td a {
+    color: #004d99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #003366;
+    padding: 8px; /* Diminuído */
+    border-radius: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    a button {
+        font-size: 0.9em;
+        padding: 6px 12px; /* Ajustado */
+    }
+
+    th, td {
+        font-size: 0.9em;
+    }
+}
