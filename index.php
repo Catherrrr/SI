@@ -1,44 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Página sobre Animes</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Manipulação de dados</h1>
-    </header>
-    <main>
-        <section id="intro">
-            <h3>A manipulação de dados é uma das principais competências no desenvolvimento de aplicações web, permitindo o armazenamento, gerenciamento e exibição de informações de maneira eficiente e dinâmica. Neste projeto, exploraremos como as linguagens PHP e SQL trabalham em conjunto para criar sistemas robustos e funcionais. O PHP, uma linguagem de script do lado do servidor, é amplamente utilizado para a construção de sites e aplicações que interagem com bancos de dados, enquanto o SQL (Structured Query Language) é a linguagem padrão para gerenciar e manipular esses dados de forma estruturada.</h3>
-            <h4>A integração dessas tecnologias possibilita operações como a criação, leitura, atualização e exclusão de dados (CRUD), essenciais em sistemas como e-commerces, plataformas de gerenciamento de clientes e diversos outros tipos de aplicações. Este trabalho acadêmico visa aprofundar o entendimento dos conceitos e práticas envolvidas na manipulação de dados, destacando a importância da segurança, boas práticas de codificação e a eficiência na execução de consultas.</h4>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-        </section>
-    
-        <section id="outro">
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </p>
-        </section>
-    </main>
-    <footer>
-        <a href="php/main.php">Manipulação de Clientes</a>
-    </footer>
-    <footer>
-        <a href="php/culturas/maincult.php">Manipulação de Culturas</a>
-    </footer>
-    <footer>
-        <a href="php/equipamentos/maineq.php">Manipulação de Equipamentos</a>
-    </footer>
-    <footer>
-        <a href="php/propriedades/mainprop.php">Manipulação de Propriedades</a>
-    </footer>
+
+    <h1>Minha loja de jogos</h1>
+    <h2> Explore os melhores jogos de computador em um só lugar. Aqui você encontra uma seleção incrível de jogos para todos os estilos: ação, aventura, estratégia e muito mais! Com conteúdo atualizado, lançamentos e clássicos, nosso objetivo é trazer diversão e qualidade para todos os jogadores.</h2>
+    <h2> Descubra o Novo e o Clássico em um Só Lugar Nossos jogos são cuidadosamente selecionados para garantir qualidade e diversão. Fique por dentro dos lançamentos mais recentes, explore favoritos de todos os tempos e aproveite recomendações personalizadas de acordo com suas preferências.</h2>
+    <br/><br/><br/><br/><br/>
+    <div class="loja">
+        <h1>Menu de operações</h1>
+        <button id="cadastroBtn">Cadastro </button><br/><br/>
+        <button id="vendaBtn">Venda</button>
+        <button id="cadastroBtn">Leandro </button><br/><br/>
+    </div>
+    <script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>
-
-
-testando novo
