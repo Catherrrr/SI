@@ -12,10 +12,11 @@
     <div class="loja">
         <h1>Menu de operações</h1>
         <button id="cadastroBtn">Cadastro </button><br/><br/>
+        <button id="cadastroBtn">Mostrando </button><br/><br/>
+
         <button id="vendaBtn">Venda</button>
         <button id="cadastroBtn">Leandrãooo </button><br/><br/>
     </div>
     <script type="text/javascript" src="js/menu.js"></script>
 </body>
-</html>
-a
+</html> 
